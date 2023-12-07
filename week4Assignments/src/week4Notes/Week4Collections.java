@@ -1,4 +1,4 @@
-package week4Assignments;
+package week4Notes;
 
 public class Week4Collections {
 
