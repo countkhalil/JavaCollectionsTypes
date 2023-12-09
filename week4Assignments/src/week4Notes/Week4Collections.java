@@ -16,7 +16,7 @@ public class Week4Collections {
 		 */
 List<String> pickMe = new ArrayList<String>();
 pickMe.add("Eenie");
-pickMe.add("Meenie");
+//pickMe.add("Meenie");
 pickMe.add("Minie");
 pickMe.add("Minie");
 pickMe.add("Moe");
