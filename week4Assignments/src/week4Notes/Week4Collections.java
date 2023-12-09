@@ -68,9 +68,27 @@ Map<String,String> dictionary = new HashMap<String, String>();
 dictionary.put("zebastian", "A Great Looking Man");
 dictionary.put("Taylor", "A Bum");
 
+//Repeat String >>
+
+String tripleHi= multiplyString("Hi", 3);
+System.out.println(tripleHi);
+
+//StringBuilder Ex
+String firstName= "Dill";
+String lastName= " Finster";
+StringBuilder fullName = new StringBuilder("Lenny");
+fullName.append (lastName);
+System.out.println(fullName.toString());
+	}
+
+public static String multiplyString (String str, int num) {
+StringBuilder result = new StringBuilder();
+for (int i =0; i < num; i++) {
+	result.append(str);
+}
+return result.toString();
+		}
 
 
 
-
-
-}}
+}
