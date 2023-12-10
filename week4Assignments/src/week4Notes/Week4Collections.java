@@ -1,4 +1,4 @@
-package week4Notes;
+package week4Collections;
 
 import java.util.ArrayList;
 import java.util.HashMap;
